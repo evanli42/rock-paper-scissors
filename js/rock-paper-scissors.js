@@ -101,7 +101,7 @@ function playRound(pChoice, cChoice) {
       computer++;
     } else if (pChoice  === 'Scissors' && cChoice === 'Paper') {
       result.textContent = 'Round Result: You win!';
-      player;
+      player++;
     } else if (pChoice  === cChoice) {
       result.textContent = 'Round Result: It\'s a tie!';
     } 
